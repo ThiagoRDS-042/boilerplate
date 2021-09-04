@@ -19,7 +19,7 @@
   },
   "lint-staged": {
     "src/**/*": [
-      "yarn eslint src --max-warnings=0 --fix", "yarn jest --bail"
+      "yarn eslint src --max-warnings=0 --fix", "yarn jest --findRelatedTests --bail"
     ]
   },
   "dependencies": {
